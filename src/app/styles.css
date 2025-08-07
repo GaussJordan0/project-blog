@@ -60,17 +60,11 @@ html {
 
 /* GLOBAL STYLES */
 ::selection {
-  background-color: var(
-    --color-selection-background
-  ) !important;
+  background-color: var(--color-selection-background) !important;
   color: var(--color-selection-text) !important;
   background-image: none !important;
-  -webkit-text-fill-color: var(
-    --color-selection-text
-  ) !important;
-  -moz-text-fill-color: var(
-    --color-selection-text
-  ) !important;
+  -webkit-text-fill-color: var(--color-selection-text) !important;
+  -moz-text-fill-color: var(--color-selection-text) !important;
   background-image: none !important;
   background-clip: revert !important;
   -webkit-background-clip: revert !important;
@@ -79,7 +73,7 @@ html {
 
 html {
   color: var(--color-text);
-  font-family: var(--font-family), sans-serif;
+  font-family: var(--font-family);
   letter-spacing: -0.03125em;
   background: var(--color-backdrop-highlight);
 }
@@ -94,7 +88,7 @@ body {
 }
 
 body::before {
-  content: '';
+  content: "";
   position: absolute;
   z-index: 0;
   top: 0;
